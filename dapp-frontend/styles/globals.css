@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    /* @apply text-white; */
+  }
+}
+
+@layer components {
+}
+
+.ton-sizing {
+  @apply max-w-5xl mx-auto;
+}
+
+.centered {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* body {
+	color: #000;
+	background: #fff;
+}
+
+[data-theme='dark'],
+[data-theme='dark'] body {
+	color: #fff;
+	background: #000;
+} */
