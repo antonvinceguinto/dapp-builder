@@ -1,7 +1,5 @@
 module.exports = {
   extends: [
-    'next/core-web-vitals',
-    'airbnb',
     'airbnb-typescript',
     'plugin:@typescript-eslint/recommended',
     'plugin:@typescript-eslint/recommended-requiring-type-checking',
@@ -12,8 +10,9 @@ module.exports = {
     ecmaVersion: 'latest',
     sourceType: 'module',
   },
-  plugins: ['react', '@typescript-eslint'],
+  plugins: ['react', '@typescript-eslint', 'import'],
   rules: {
+    'max-len': ['error', { code: 100 }],
     'no-unused-vars': 1,
     'react/prop-types': 0,
     'react/require-default-props': 0,
