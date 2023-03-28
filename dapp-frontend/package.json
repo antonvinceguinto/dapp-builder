@@ -9,28 +9,28 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroicons/react": "^2.0.12",
-    "@next/eslint-plugin-next": "^13.0.1",
+    "@heroicons/react": "^2.0.16",
+    "@next/eslint-plugin-next": "^13.2.4",
     "autoprefixer": "^10.4.7",
-    "connectkit": "^0.0.2",
+    "connectkit": "^1.2.1",
     "ethers": "^5.7.2",
-    "next": "12.1.6",
-    "next-themes": "^0.2.0",
-    "postcss": "^8.4.14",
+    "next": "^13.2.4",
+    "next-themes": "^0.2.1",
+    "postcss": "^8.4.21",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "tailwindcss": "^3.2.1",
-    "wagmi": "^0.6.7"
+    "tailwindcss": "^3.2.7",
+    "wagmi": "^0.11.7"
   },
   "devDependencies": {
-    "@types/node": "18.11.9",
-    "@types/react": "18.0.24",
+    "@types/node": "^18.15.10",
+    "@types/react": "^18.0.30",
     "@typescript-eslint/eslint-plugin": "^5.36.1",
     "@typescript-eslint/parser": "^5.36.1",
     "autoprefixer": "^10.4.8",
-    "eslint": "8.23.0",
+    "eslint": "8.36.0",
     "eslint-config-airbnb-typescript": "^17.0.0",
     "eslint-plugin-react": "^7.31.10",
-    "typescript": "4.8.4"
+    "typescript": "5.0.2"
   }
 }
